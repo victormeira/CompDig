@@ -1,0 +1,92 @@
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Lab05/tecladops2.xst" -ofn "C:/Users/aula2.ELE/Lab05/tecladops2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraintsLab05.ucf -p xc3s500e-fg320-4 tecladops2.ngc tecladops2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tecladops2_map.ncd tecladops2.ngd tecladops2.pcf 
+par -w -intstyle ise -ol high -t 1 tecladops2_map.ncd tecladops2.ncd tecladops2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tecladops2.twx tecladops2.ncd -o tecladops2.twr tecladops2.pcf -ucf constraintsLab05.ucf 
+bitgen -intstyle ise -f tecladops2.ut tecladops2.ncd 

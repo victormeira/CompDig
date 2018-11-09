@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\aula2\Desktop\Lab09-3110\Lab09\ADC.ncd
+OUTFILE=C:\Users\aula2\Desktop\Lab09-3110\Lab09\ADC.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\aula2\Desktop\Lab09-3110\Lab09
+LICENSE=WebPack
+USER_INFO=__0_0_0

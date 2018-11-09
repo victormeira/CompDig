@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 07 10:31:24 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CLK_50MHZ" LOCATE = SITE "C9" LEVEL 1;
+COMP "reset" LOCATE = SITE "V16" LEVEL 1;
+NET "CLK_50MHZ_BUFGP/IBUFG" BEL "CLK_50MHZ_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

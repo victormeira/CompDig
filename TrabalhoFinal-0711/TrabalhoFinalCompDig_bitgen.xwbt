@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\aula2.ELE\Desktop\teclado\TrabalhoFinalCompDig.ncd
+OUTFILE=C:\Users\aula2.ELE\Desktop\teclado\TrabalhoFinalCompDig.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\aula2.ELE\Desktop\teclado
+LICENSE=WebPack
+USER_INFO=211165492_176193773_0_658

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\aula.ELE\Desktop\Lab07\DAC.ncd
+OUTFILE=C:\Users\aula.ELE\Desktop\Lab07\DAC.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\aula.ELE\Desktop\Lab07
+LICENSE=WebPack
+USER_INFO=211165492_176193773_0_658

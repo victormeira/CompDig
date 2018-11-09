@@ -1,0 +1,16 @@
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/comparador2bits.xst" -ofn "C:/Users/aula.ELE/Lab01/comparador2bits.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 comparador2bits.ngc comparador2bits.ngd  
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 comparador2bits.ngc comparador2bits.ngd  
+map -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o comparador2bits_map.ncd comparador2bits.ngd comparador2bits.pcf 
+par -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 comparador2bits_map.ncd comparador2bits.ncd comparador2bits.pcf 
+trce -filter C:/Users/aula.ELE/Lab01/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml comparador2bits.twx comparador2bits.ncd -o comparador2bits.twr comparador2bits.pcf -ucf Constraints.ucf 
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/comparador2bits.xst" -ofn "C:/Users/aula.ELE/Lab01/comparador2bits.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 comparador2bits.ngc comparador2bits.ngd  
+map -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o comparador2bits_map.ncd comparador2bits.ngd comparador2bits.pcf 
+par -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 comparador2bits_map.ncd comparador2bits.ncd comparador2bits.pcf 
+trce -filter C:/Users/aula.ELE/Lab01/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml comparador2bits.twx comparador2bits.ncd -o comparador2bits.twr comparador2bits.pcf -ucf Constraints.ucf 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Constraints.ucf -p xc3s500e-fg320-4 comparador2bits.ngc comparador2bits.ngd  
+map -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o comparador2bits_map.ncd comparador2bits.ngd comparador2bits.pcf 
+par -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 comparador2bits_map.ncd comparador2bits.ncd comparador2bits.pcf 
+trce -filter C:/Users/aula.ELE/Lab01/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml comparador2bits.twx comparador2bits.ncd -o comparador2bits.twr comparador2bits.pcf -ucf Constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f comparador2bits.ut comparador2bits.ncd 

@@ -1,0 +1,257 @@
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s100e-vq100-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-vq100-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-vq100-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula2.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tecladoConstraints.ucf -p xc3s500e-fg320-5 TecladoArq.ngc TecladoArq.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TecladoArq_map.ncd TecladoArq.ngd TecladoArq.pcf 
+par -w -intstyle ise -ol high -t 1 TecladoArq_map.ncd TecladoArq.ncd TecladoArq.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TecladoArq.twx TecladoArq.ncd -o TecladoArq.twr TecladoArq.pcf -ucf tecladoConstraints.ucf 
+bitgen -intstyle ise -f TecladoArq.ut TecladoArq.ncd 

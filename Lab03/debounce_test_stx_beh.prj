@@ -1,0 +1,2 @@
+vhdl isim_temp "db_fsm.vhd"
+vhdl isim_temp "debounce_test.vhd"

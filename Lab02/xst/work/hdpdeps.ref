@@ -1,0 +1,6 @@
+V3 3
+FL D:/Lab02/parking.vhd 2018/08/27.11:20:44 P.20131013
+EN work/parking 1535379652 FL D:/Lab02/parking.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/parking/Behavioral 1535379653 \
+      FL D:/Lab02/parking.vhd EN work/parking 1535379652

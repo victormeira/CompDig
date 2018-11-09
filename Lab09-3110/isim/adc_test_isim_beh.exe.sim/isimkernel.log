@@ -1,0 +1,28 @@
+Command line:
+   adc_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  11730
+
+Wed Oct 31 11:00:48 2018
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 506.905 Meg
+
+ Total Signals          : 38
+ Total Nets             : 111
+ Total Signal Drivers   : 19
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 12
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 595
+
+ Total Simulation Time: 0.374402 sec
+
+ Current Memory Usage: 506.905 Meg
+
+Wed Oct 31 11:01:25 2018
+

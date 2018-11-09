@@ -1,0 +1,2 @@
+vhdl isim_temp "parking.vhd"
+vhdl isim_temp "TB_Parking.vhd"

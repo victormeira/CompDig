@@ -1,0 +1,29 @@
+Command line:
+   TESTZAO_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35408
+
+Wed Nov 07 10:32:16 2018
+
+
+ Elaboration Time: 0.171601 sec
+
+ Current Memory Usage: 1317.63 Meg
+
+ Total Signals          : 6
+ Total Nets             : 3
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 3
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 487
+Total Line Count : 13
+
+ Total Simulation Time: 0.218401 sec
+
+ Current Memory Usage: 688.419 Meg
+
+Wed Nov 07 10:55:44 2018
+

@@ -1,0 +1,243 @@
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+xst -intstyle ise -ifn "C:/Users/aula.ELE/Desktop/Lab07/DAC.xst" -ofn "C:/Users/aula.ELE/Desktop/Lab07/DAC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DAC_Constraints.ucf -p xc3s500e-fg320-4 DAC.ngc DAC.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o DAC_map.ncd DAC.ngd DAC.pcf 
+par -w -intstyle ise -ol high -t 1 DAC_map.ncd DAC.ncd DAC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DAC.twx DAC.ncd -o DAC.twr DAC.pcf -ucf DAC_Constraints.ucf 
+bitgen -intstyle ise -f DAC.ut DAC.ncd 

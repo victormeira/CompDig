@@ -1,0 +1,2 @@
+vhdl work "parking.vhd"
+vhdl work "TB_Parking.vhd"

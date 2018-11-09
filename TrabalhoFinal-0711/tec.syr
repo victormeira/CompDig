@@ -1,0 +1,415 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: tec.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "tec.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "tec"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : tec
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/aula2.ELE/Desktop/teclado/tec.vhd" in Library work.
+Entity <tec> compiled.
+Entity <tec> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <tec> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <tec> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/aula2.ELE/Desktop/teclado/tec.vhd" line 67: Mux is complete : default of case is discarded
+WARNING:Xst:819 - "C:/Users/aula2.ELE/Desktop/teclado/tec.vhd" line 84: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <zcounter>
+Entity <tec> analyzed. Unit <tec> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <tec>.
+    Related source file is "C:/Users/aula2.ELE/Desktop/teclado/tec.vhd".
+WARNING:Xst:646 - Signal <dummy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 16-bit latch for signal <hex0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Using one-hot encoding for signal <hex>.
+    Found 18-bit up counter for signal <q_reg>.
+    Found 4-bit register for signal <zcounter>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   4 D-type flip-flop(s).
+Unit <tec> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 1
+ 4-bit register                                        : 1
+# Latches                                              : 1
+ 16-bit latch                                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1426 - The value init of the FF/Latch 0 hinder the constant cleaning in the block 0.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <8>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <9>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <11>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <12>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <14>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+# Latches                                              : 1
+ 16-bit latch                                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <14> in Unit <LPM_LATCH_1> is equivalent to the following 9 FFs/Latches, which will be removed : <13> <12> <11> <9> <8> <7> <6> <5> <4> 
+WARNING:Xst:1426 - The value init of the FF/Latch 0 hinder the constant cleaning in the block LPM_LATCH_1.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <14> has a constant value of 0 in block <LPM_LATCH_1>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <tec> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block tec, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 22
+ Flip-Flops                                            : 22
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : tec.ngr
+Top Level Output File Name         : tec
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 71
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 17
+#      LUT3                        : 2
+#      LUT4                        : 11
+#      MUXCY                       : 17
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 28
+#      FD                          : 4
+#      FDC                         : 18
+#      LD                          : 6
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 5
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       18  out of   4656     0%  
+ Number of Slice Flip Flops:             28  out of   9312     0%  
+ Number of 4 input LUTs:                 32  out of   9312     0%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    232     7%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 22    |
+hex0_cmp_eq0000(hex0_cmp_eq00001:O)| NONE(*)(hex0_0)        | 6     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.779ns (Maximum Frequency: 264.655MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.725ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.779ns (frequency: 264.655MHz)
+  Total number of paths / destination ports: 175 / 22
+-------------------------------------------------------------------------
+Delay:               3.779ns (Levels of Logic = 18)
+  Source:            q_reg_1 (FF)
+  Destination:       q_reg_17 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: q_reg_1 to q_reg_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.509  q_reg_1 (q_reg_1)
+     LUT1:I0->O            1   0.612   0.000  Mcount_q_reg_cy<1>_rt (Mcount_q_reg_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_q_reg_cy<1> (Mcount_q_reg_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<2> (Mcount_q_reg_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<3> (Mcount_q_reg_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<4> (Mcount_q_reg_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<5> (Mcount_q_reg_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<6> (Mcount_q_reg_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<7> (Mcount_q_reg_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<8> (Mcount_q_reg_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<9> (Mcount_q_reg_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<10> (Mcount_q_reg_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<11> (Mcount_q_reg_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<12> (Mcount_q_reg_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<13> (Mcount_q_reg_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<14> (Mcount_q_reg_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_q_reg_cy<15> (Mcount_q_reg_cy<15>)
+     MUXCY:CI->O           0   0.051   0.000  Mcount_q_reg_cy<16> (Mcount_q_reg_cy<16>)
+     XORCY:CI->O           1   0.699   0.000  Mcount_q_reg_xor<17> (Result<17>)
+     FDC:D                     0.268          q_reg_17
+    ----------------------------------------
+    Total                      3.779ns (3.270ns logic, 0.509ns route)
+                                       (86.5% logic, 13.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              5.032ns (Levels of Logic = 2)
+  Source:            q_reg_17 (FF)
+  Destination:       an (PAD)
+  Source Clock:      clk rising
+
+  Data Path: q_reg_17 to an
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.380  q_reg_17 (q_reg_17)
+     INV:I->O              1   0.612   0.357  an1_INV_0 (an_OBUF)
+     OBUF:I->O                 3.169          an_OBUF (an)
+    ----------------------------------------
+    Total                      5.032ns (4.295ns logic, 0.737ns route)
+                                       (85.4% logic, 14.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'hex0_cmp_eq0000'
+  Total number of paths / destination ports: 28 / 7
+-------------------------------------------------------------------------
+Offset:              5.725ns (Levels of Logic = 3)
+  Source:            hex0_10 (LATCH)
+  Destination:       sseg<1> (PAD)
+  Source Clock:      hex0_cmp_eq0000 falling
+
+  Data Path: hex0_10 to sseg<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               6   0.588   0.721  hex0_10 (hex0_10)
+     LUT4:I0->O            1   0.612   0.000  sseg<1>1 (sseg<1>1)
+     MUXF5:I0->O           1   0.278   0.357  sseg<1>_f5 (sseg_1_OBUF)
+     OBUF:I->O                 3.169          sseg_1_OBUF (sseg<1>)
+    ----------------------------------------
+    Total                      5.725ns (4.647ns logic, 1.078ns route)
+                                       (81.2% logic, 18.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.14 secs
+ 
+--> 
+
+Total memory usage is 259072 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

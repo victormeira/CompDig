@@ -1,0 +1,42 @@
+xst -intstyle ise -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/teclado/tec.xst" -ofn "C:/Users/aula.ELE/teclado/tec.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc tecConstraint.ucf -p xc3s500e-fg320-5 tec.ngc tec.ngd  
+map -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o tec_map.ncd tec.ngd tec.pcf 
+par -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 tec_map.ncd tec.ncd tec.pcf 
+trce -filter C:/Users/aula.ELE/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tec.twx tec.ncd -o tec.twr tec.pcf -ucf tecConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f tec.ut tec.ncd 
+xst -intstyle ise -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/teclado/tec.xst" -ofn "C:/Users/aula.ELE/teclado/tec.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc tecConstraint.ucf -p xc3s500e-fg320-5 tec.ngc tec.ngd  
+map -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o tec_map.ncd tec.ngd tec.pcf 
+par -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 tec_map.ncd tec.ncd tec.pcf 
+trce -filter C:/Users/aula.ELE/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tec.twx tec.ncd -o tec.twr tec.pcf -ucf tecConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f tec.ut tec.ncd 
+xst -intstyle ise -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/teclado/tec.xst" -ofn "C:/Users/aula.ELE/teclado/tec.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc tecConstraint.ucf -p xc3s500e-fg320-5 tec.ngc tec.ngd  
+map -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o tec_map.ncd tec.ngd tec.pcf 
+par -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 tec_map.ncd tec.ncd tec.pcf 
+trce -filter C:/Users/aula.ELE/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tec.twx tec.ncd -o tec.twr tec.pcf -ucf tecConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f tec.ut tec.ncd 
+xst -intstyle ise -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/teclado/tec.xst" -ofn "C:/Users/aula.ELE/teclado/tec.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc tecConstraint.ucf -p xc3s500e-fg320-5 tec.ngc tec.ngd  
+map -filter "C:/Users/aula.ELE/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o tec_map.ncd tec.ngd tec.pcf 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Documents/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Documents/teclado/tec.xst" -ofn "C:/Users/aula2.ELE/Documents/teclado/tec.syr" 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Documents/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Documents/teclado/tec.xst" -ofn "C:/Users/aula2.ELE/Documents/teclado/tec.syr" 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Documents/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Documents/teclado/tec.xst" -ofn "C:/Users/aula2.ELE/Documents/teclado/tec.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc tecConstraint.ucf -p xc3s500e-fg320-5 tec.ngc tec.ngd  
+map -filter "C:/Users/aula2.ELE/Documents/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o tec_map.ncd tec.ngd tec.pcf 
+par -filter "C:/Users/aula2.ELE/Documents/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 tec_map.ncd tec.ncd tec.pcf 
+trce -filter C:/Users/aula2.ELE/Documents/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tec.twx tec.ncd -o tec.twr tec.pcf -ucf tecConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f tec.ut tec.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f tec.ut tec.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/tec.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/tec.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc tecConstraint.ucf -p xc3s500e-fg320-5 tec.ngc tec.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o tec_map.ncd tec.ngd tec.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 tec_map.ncd tec.ncd tec.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tec.twx tec.ncd -o tec.twr tec.pcf -ucf tecConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f tec.ut tec.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/tec.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/tec.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc tecConstraint.ucf -p xc3s500e-fg320-5 tec.ngc tec.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o tec_map.ncd tec.ngd tec.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 tec_map.ncd tec.ncd tec.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tec.twx tec.ncd -o tec.twr tec.pcf -ucf tecConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f tec.ut tec.ncd 

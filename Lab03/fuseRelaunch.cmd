@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Lab03/debounce_test_isim_beh.exe" -prj "D:/Lab03/debounce_test_beh.prj" "work.debounce_test" 

@@ -1,0 +1,4 @@
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/Testbench.xst" -ofn "C:/Users/aula.ELE/Lab01/Testbench.syr" 
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/Testbench.xst" -ofn "C:/Users/aula.ELE/Lab01/Testbench.syr" 
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/Testbench.xst" -ofn "C:/Users/aula.ELE/Lab01/Testbench.syr" 
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/Testbench.xst" -ofn "C:/Users/aula.ELE/Lab01/Testbench.syr" 

@@ -1,0 +1,6 @@
+V3 3
+FL D:/Lab03/db_fsm.vhd 2018/09/03.12:57:12 P.20131013
+EN work/db_fsm 1535990237 FL D:/Lab03/db_fsm.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/db_fsm/arch 1535990238 \
+      FL D:/Lab03/db_fsm.vhd EN work/db_fsm 1535990237

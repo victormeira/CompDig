@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/aula.ELE/Desktop/Lab07/DAC_Test_isim_beh.exe" -prj "C:/Users/aula.ELE/Desktop/Lab07/DAC_Test_beh.prj" "work.DAC_Test" 

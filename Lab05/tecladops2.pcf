@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.58f on Mon Sep 24 12:12:12 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "display<6>" LOCATE = SITE "E9" LEVEL 1;
+COMP "display<7>" LOCATE = SITE "F9" LEVEL 1;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "clkTeclado" LOCATE = SITE "G14" LEVEL 1;
+PIN clkTeclado_pin<0> = BEL "clkTeclado" PINNAME PAD;
+PIN "clkTeclado_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "display<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "display<1>" LOCATE = SITE "E12" LEVEL 1;
+COMP "display<2>" LOCATE = SITE "E11" LEVEL 1;
+COMP "display<3>" LOCATE = SITE "F11" LEVEL 1;
+COMP "serialTeclado" LOCATE = SITE "G13" LEVEL 1;
+COMP "display<4>" LOCATE = SITE "C11" LEVEL 1;
+COMP "display<5>" LOCATE = SITE "D11" LEVEL 1;
+NET "clkTeclado_BUFGP/IBUFG" BEL "clkTeclado_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

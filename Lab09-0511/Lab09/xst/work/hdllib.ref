@@ -1,0 +1,8 @@
+EN lcd NULL C:/Users/aula.ELE/Desktop/Lab05/LCD.vhd sub00/vhpl02 1539008168
+AR lcd behavioral C:/Users/aula.ELE/Desktop/Lab05/LCD.vhd sub00/vhpl03 1539008169
+AR rs232 behavioral C:/Users/aula.ELE/Desktop/Lab05/RS232.vhd sub00/vhpl01 1538410120
+EN adc NULL C:/Users/aula2/Desktop/Lab09-3110/Lab09/ADC.vhd sub00/vhpl06 1541430072
+EN rs232 NULL C:/Users/aula.ELE/Desktop/Lab05/RS232.vhd sub00/vhpl00 1538410119
+AR dac behavioral C:/Users/aula.ELE/Desktop/Lab07/DAC.vhd sub00/vhpl05 1540224286
+AR adc behavioral C:/Users/aula2/Desktop/Lab09-3110/Lab09/ADC.vhd sub00/vhpl07 1541430073
+EN dac NULL C:/Users/aula.ELE/Desktop/Lab07/DAC.vhd sub00/vhpl04 1540224285

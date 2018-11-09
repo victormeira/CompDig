@@ -1,0 +1,15 @@
+V3 8
+FL C:/Users/aula.ELE/teclado/tec.vhd 2018/09/10.12:42:55 P.20131013
+FL C:/Users/aula2.ELE/Desktop/teclado/tec.vhd 2018/09/17.13:07:19 P.20131013
+EN work/tec 1537200474 FL C:/Users/aula2.ELE/Desktop/teclado/tec.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/tec/Behavioral 1537200475 \
+      FL C:/Users/aula2.ELE/Desktop/teclado/tec.vhd EN work/tec 1537200474
+FL C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.vhd 2018/11/07.10:30:56 P.20131013
+EN work/TrabalhoFinalCompDig 1541593869 \
+      FL C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.vhd \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/TrabalhoFinalCompDig/Behavioral 1541593870 \
+      FL C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.vhd \
+      EN work/TrabalhoFinalCompDig 1541593869
+FL C:/Users/aula2.ELE/Documents/teclado/tec.vhd 2018/09/17.12:52:01 P.20131013

@@ -1,0 +1,2 @@
+vhdl work "DAC.vhd"
+vhdl work "DAC_Test.vhd"

@@ -1,0 +1,395 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: TecladoArq.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TecladoArq.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TecladoArq"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : TecladoArq
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.vhd" in Library work.
+Entity <tecladoarq> compiled.
+Entity <tecladoarq> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <TecladoArq> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <TecladoArq> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.vhd" line 164: Mux is complete : default of case is discarded
+WARNING:Xst:819 - "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.vhd" line 156: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <hex1>
+Entity <TecladoArq> analyzed. Unit <TecladoArq> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <TecladoArq>.
+    Related source file is "C:/Users/aula.ELE/Desktop/Lab04/Lab04/TecladoArq.vhd".
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <q_next> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <hex>.
+    Found 4-bit register for signal <colRead>.
+    Found 20-bit up counter for signal <contadorTeclado>.
+    Found 16-bit register for signal <hex1>.
+    Found 1-bit register for signal <jaTroquei>.
+    Found 9-bit up counter for signal <q_reg>.
+    Found 16-bit register for signal <tecladoOut>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  37 D-type flip-flop(s).
+Unit <TecladoArq> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 20-bit up counter                                     : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 4
+ 1-bit register                                        : 1
+ 16-bit register                                       : 2
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 20-bit up counter                                     : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 37
+ Flip-Flops                                            : 37
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TecladoArq> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TecladoArq, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TecladoArq.ngr
+Top Level Output File Name         : TecladoArq
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 187
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 27
+#      LUT2                        : 3
+#      LUT2_D                      : 1
+#      LUT3                        : 21
+#      LUT3_D                      : 3
+#      LUT3_L                      : 2
+#      LUT4                        : 53
+#      LUT4_D                      : 2
+#      LUT4_L                      : 1
+#      MUXCY                       : 32
+#      MUXF5                       : 8
+#      VCC                         : 1
+#      XORCY                       : 29
+# FlipFlops/Latches                : 66
+#      FD                          : 25
+#      FDE                         : 20
+#      FDR                         : 20
+#      FDRE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 4
+#      OBUF                        : 14
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       63  out of   4656     1%  
+ Number of Slice Flip Flops:             66  out of   9312     0%  
+ Number of 4 input LUTs:                116  out of   9312     1%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  19  out of    232     8%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 66    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.009ns (Maximum Frequency: 199.629MHz)
+   Minimum input arrival time before clock: 6.685ns
+   Maximum output required time after clock: 10.571ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.009ns (frequency: 199.629MHz)
+  Total number of paths / destination ports: 712 / 87
+-------------------------------------------------------------------------
+Delay:               5.009ns (Levels of Logic = 4)
+  Source:            colRead_2 (FF)
+  Destination:       tecladoOut_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: colRead_2 to tecladoOut_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             12   0.514   0.886  colRead_2 (colRead_2)
+     LUT3:I1->O            1   0.612   0.000  tecladoOut_mux0000<0>196_SW0_F (N22)
+     MUXF5:I0->O           1   0.278   0.360  tecladoOut_mux0000<0>196_SW0 (N191)
+     LUT4_D:I3->O         15   0.612   0.867  tecladoOut_mux0000<0>1125 (N3)
+     LUT4:I3->O            1   0.612   0.000  tecladoOut_mux0000<5> (tecladoOut_mux0000<5>)
+     FD:D                      0.268          tecladoOut_10
+    ----------------------------------------
+    Total                      5.009ns (2.896ns logic, 2.113ns route)
+                                       (57.8% logic, 42.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 404 / 53
+-------------------------------------------------------------------------
+Offset:              6.685ns (Levels of Logic = 6)
+  Source:            row<0> (PAD)
+  Destination:       tecladoOut_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: row<0> to tecladoOut_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.106   0.754  row_0_IBUF (row_0_IBUF)
+     LUT4:I0->O            3   0.612   0.603  tecladoOut_mux0000<0>159_SW0 (N171)
+     LUT4:I0->O            1   0.612   0.000  tecladoOut_mux0000<0>196_SW0_G (N23)
+     MUXF5:I1->O           1   0.278   0.360  tecladoOut_mux0000<0>196_SW0 (N191)
+     LUT4_D:I3->O         15   0.612   0.867  tecladoOut_mux0000<0>1125 (N3)
+     LUT4:I3->O            1   0.612   0.000  tecladoOut_mux0000<5> (tecladoOut_mux0000<5>)
+     FD:D                      0.268          tecladoOut_10
+    ----------------------------------------
+    Total                      6.685ns (4.100ns logic, 2.585ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 280 / 14
+-------------------------------------------------------------------------
+Offset:              10.571ns (Levels of Logic = 7)
+  Source:            q_reg_8 (FF)
+  Destination:       sseg<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: q_reg_8 to sseg<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              24   0.514   1.216  q_reg_8 (q_reg_8)
+     LUT3:I0->O            2   0.612   0.532  hex<8>1 (hex<8>)
+     LUT4:I0->O            3   0.612   0.603  sseg_4_mux00001 (N7)
+     LUT2:I0->O            1   0.612   0.000  sseg_3_mux000011 (sseg_3_mux00001)
+     MUXF5:I1->O           3   0.278   0.481  sseg_3_mux00001_f5 (N4)
+     LUT3:I2->O            1   0.612   0.360  sseg_3_mux0000_SW0 (N61)
+     LUT4:I3->O            1   0.612   0.357  sseg_3_mux0000 (sseg_3_OBUF)
+     OBUF:I->O                 3.169          sseg_3_OBUF (sseg<3>)
+    ----------------------------------------
+    Total                     10.571ns (7.021ns logic, 3.550ns route)
+                                       (66.4% logic, 33.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.78 secs
+ 
+--> 
+
+Total memory usage is 260480 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

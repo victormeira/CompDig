@@ -1,0 +1,2 @@
+vhdl isim_temp "DAC.vhd"
+vhdl isim_temp "DAC_Test.vhd"

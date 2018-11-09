@@ -1,0 +1,26 @@
+xst -intstyle ise -filter "D:/Lab02/iseconfig/filter.filter" -ifn "D:/Lab02/parking.xst" -ofn "D:/Lab02/parking.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 parking.ngc parking.ngd  
+map -filter "D:/Lab02/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parking_map.ncd parking.ngd parking.pcf 
+par -filter "D:/Lab02/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 parking_map.ncd parking.ncd parking.pcf 
+trce -filter D:/Lab02/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parking.twx parking.ncd -o parking.twr parking.pcf 
+xst -intstyle ise -filter "D:/Lab02/iseconfig/filter.filter" -ifn "D:/Lab02/parking.xst" -ofn "D:/Lab02/parking.syr" 
+xst -intstyle ise -filter "D:/Lab02/iseconfig/filter.filter" -ifn "D:/Lab02/parking.xst" -ofn "D:/Lab02/parking.syr" 
+xst -intstyle ise -filter "D:/Lab02/iseconfig/filter.filter" -ifn "D:/Lab02/parking.xst" -ofn "D:/Lab02/parking.syr" 
+xst -intstyle ise -filter "D:/Lab02/iseconfig/filter.filter" -ifn "D:/Lab02/parking.xst" -ofn "D:/Lab02/parking.syr" 
+xst -intstyle ise -filter "D:/Lab02/iseconfig/filter.filter" -ifn "D:/Lab02/parking.xst" -ofn "D:/Lab02/parking.syr" 
+xst -intstyle ise -filter "D:/Lab02/iseconfig/filter.filter" -ifn "D:/Lab02/parking.xst" -ofn "D:/Lab02/parking.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 parking.ngc parking.ngd  
+map -filter "D:/Lab02/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parking_map.ncd parking.ngd parking.pcf 
+par -filter "D:/Lab02/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 parking_map.ncd parking.ncd parking.pcf 
+trce -filter D:/Lab02/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parking.twx parking.ncd -o parking.twr parking.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f parking.ut parking.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc parking.ucf -p xc3s500e-fg320-4 parking.ngc parking.ngd  
+map -filter "D:/Lab02/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parking_map.ncd parking.ngd parking.pcf 
+par -filter "D:/Lab02/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 parking_map.ncd parking.ncd parking.pcf 
+trce -filter D:/Lab02/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parking.twx parking.ncd -o parking.twr parking.pcf -ucf parking.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f parking.ut parking.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc parking.ucf -uc constraintsparking.ucf -p xc3s500e-fg320-4 parking.ngc parking.ngd  
+map -filter "D:/Lab02/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o parking_map.ncd parking.ngd parking.pcf 
+par -filter "D:/Lab02/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 parking_map.ncd parking.ncd parking.pcf 
+trce -filter D:/Lab02/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml parking.twx parking.ncd -o parking.twr parking.pcf -ucf parking.ucf -ucf constraintsparking.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f parking.ut parking.ncd 

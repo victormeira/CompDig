@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/aula.ELE/Lab01/TB_Comparador2bits_isim_beh.exe" -prj "C:/Users/aula.ELE/Lab01/TB_Comparador2bits_beh.prj" "work.TB_Comparador2bits" 

@@ -1,0 +1,87 @@
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 
+xst -intstyle ise -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -ifn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.xst" -ofn "C:/Users/aula2.ELE/Desktop/teclado/TrabalhoFinalCompDig.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc TrabalhoFinalCompDigConstraint.ucf -p xc3s500e-fg320-5 TrabalhoFinalCompDig.ngc TrabalhoFinalCompDig.ngd  
+map -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ngd TrabalhoFinalCompDig.pcf 
+par -filter "C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 TrabalhoFinalCompDig_map.ncd TrabalhoFinalCompDig.ncd TrabalhoFinalCompDig.pcf 
+trce -filter C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TrabalhoFinalCompDig.twx TrabalhoFinalCompDig.ncd -o TrabalhoFinalCompDig.twr TrabalhoFinalCompDig.pcf -ucf TrabalhoFinalCompDigConstraint.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f TrabalhoFinalCompDig.ut TrabalhoFinalCompDig.ncd 

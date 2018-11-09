@@ -1,0 +1,163 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -filter
+C:/Users/aula2.ELE/Desktop/teclado/iseconfig/filter.filter -intstyle ise -v 3
+-s 5 -n 3 -fastpaths -xml tec.twx tec.ncd -o tec.twr tec.pcf -ucf
+tecConstraint.ucf
+
+Design file:              tec.ncd
+Physical constraint file: tec.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+an          |    7.566(R)|clk_BUFGP         |   0.000|
+col<0>      |    7.482(R)|clk_BUFGP         |   0.000|
+col<1>      |    7.679(R)|clk_BUFGP         |   0.000|
+col<2>      |    7.811(R)|clk_BUFGP         |   0.000|
+col<3>      |    7.810(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock row<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+sseg<0>     |    9.554(F)|hex0_cmp_eq0000   |   0.000|
+sseg<1>     |    9.613(F)|hex0_cmp_eq0000   |   0.000|
+sseg<2>     |    9.868(F)|hex0_cmp_eq0000   |   0.000|
+sseg<3>     |    9.411(F)|hex0_cmp_eq0000   |   0.000|
+sseg<4>     |   10.627(F)|hex0_cmp_eq0000   |   0.000|
+sseg<5>     |   10.105(F)|hex0_cmp_eq0000   |   0.000|
+sseg<6>     |   10.248(F)|hex0_cmp_eq0000   |   0.000|
+------------+------------+------------------+--------+
+
+Clock row<1> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+sseg<0>     |    9.766(F)|hex0_cmp_eq0000   |   0.000|
+sseg<1>     |    9.825(F)|hex0_cmp_eq0000   |   0.000|
+sseg<2>     |   10.080(F)|hex0_cmp_eq0000   |   0.000|
+sseg<3>     |    9.623(F)|hex0_cmp_eq0000   |   0.000|
+sseg<4>     |   10.839(F)|hex0_cmp_eq0000   |   0.000|
+sseg<5>     |   10.317(F)|hex0_cmp_eq0000   |   0.000|
+sseg<6>     |   10.460(F)|hex0_cmp_eq0000   |   0.000|
+------------+------------+------------------+--------+
+
+Clock row<2> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+sseg<0>     |   10.419(F)|hex0_cmp_eq0000   |   0.000|
+sseg<1>     |   10.478(F)|hex0_cmp_eq0000   |   0.000|
+sseg<2>     |   10.733(F)|hex0_cmp_eq0000   |   0.000|
+sseg<3>     |   10.276(F)|hex0_cmp_eq0000   |   0.000|
+sseg<4>     |   11.492(F)|hex0_cmp_eq0000   |   0.000|
+sseg<5>     |   10.970(F)|hex0_cmp_eq0000   |   0.000|
+sseg<6>     |   11.113(F)|hex0_cmp_eq0000   |   0.000|
+------------+------------+------------------+--------+
+
+Clock row<3> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+sseg<0>     |   10.270(F)|hex0_cmp_eq0000   |   0.000|
+sseg<1>     |   10.329(F)|hex0_cmp_eq0000   |   0.000|
+sseg<2>     |   10.584(F)|hex0_cmp_eq0000   |   0.000|
+sseg<3>     |   10.127(F)|hex0_cmp_eq0000   |   0.000|
+sseg<4>     |   11.343(F)|hex0_cmp_eq0000   |   0.000|
+sseg<5>     |   10.821(F)|hex0_cmp_eq0000   |   0.000|
+sseg<6>     |   10.964(F)|hex0_cmp_eq0000   |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.435|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock row<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.864|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock row<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.864|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock row<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.864|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock row<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    2.864|         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Sep 17 13:08:23 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 165 MB
+
+
+

@@ -1,0 +1,20 @@
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/comparador.xst" -ofn "C:/Users/aula.ELE/Lab01/comparador.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 comparador.ngc comparador.ngd  
+map -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o comparador_map.ncd comparador.ngd comparador.pcf 
+par -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 comparador_map.ncd comparador.ncd comparador.pcf 
+trce -filter C:/Users/aula.ELE/Lab01/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comparador.twx comparador.ncd -o comparador.twr comparador.pcf 
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/comparador.xst" -ofn "C:/Users/aula.ELE/Lab01/comparador.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 comparador.ngc comparador.ngd  
+map -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o comparador_map.ncd comparador.ngd comparador.pcf 
+par -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 comparador_map.ncd comparador.ncd comparador.pcf 
+trce -filter C:/Users/aula.ELE/Lab01/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comparador.twx comparador.ncd -o comparador.twr comparador.pcf 
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/comparador.xst" -ofn "C:/Users/aula.ELE/Lab01/comparador.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 comparador.ngc comparador.ngd  
+map -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o comparador_map.ncd comparador.ngd comparador.pcf 
+par -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 comparador_map.ncd comparador.ncd comparador.pcf 
+trce -filter C:/Users/aula.ELE/Lab01/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comparador.twx comparador.ncd -o comparador.twr comparador.pcf 
+xst -intstyle ise -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -ifn "C:/Users/aula.ELE/Lab01/comparador.xst" -ofn "C:/Users/aula.ELE/Lab01/comparador.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 comparador.ngc comparador.ngd  
+map -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o comparador_map.ncd comparador.ngd comparador.pcf 
+par -filter "C:/Users/aula.ELE/Lab01/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 comparador_map.ncd comparador.ncd comparador.pcf 
+trce -filter C:/Users/aula.ELE/Lab01/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml comparador.twx comparador.ncd -o comparador.twr comparador.pcf 

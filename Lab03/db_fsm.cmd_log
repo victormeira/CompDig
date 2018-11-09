@@ -1,0 +1,165 @@
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 
+xst -intstyle ise -filter "D:/Lab03/iseconfig/filter.filter" -ifn "D:/Lab03/db_fsm.xst" -ofn "D:/Lab03/db_fsm.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc lab03_constraints.ucf -p xc3s500e-fg320-4 db_fsm.ngc db_fsm.ngd  
+map -filter "D:/Lab03/iseconfig/filter.filter" -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o db_fsm_map.ncd db_fsm.ngd db_fsm.pcf 
+par -filter "D:/Lab03/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 db_fsm_map.ncd db_fsm.ncd db_fsm.pcf 
+trce -filter D:/Lab03/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml db_fsm.twx db_fsm.ncd -o db_fsm.twr db_fsm.pcf -ucf lab03_constraints.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f db_fsm.ut db_fsm.ncd 

@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Aug 20 12:40:31 2018
+
+drc -z comparador2bits.ncd comparador2bits.pcf
+
+DRC detected 0 errors and 0 warnings.
